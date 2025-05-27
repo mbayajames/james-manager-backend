@@ -1,0 +1,34 @@
+{
+  "name": "james-manager-backend",
+  "version": "1.0.0",
+  "description": "A modern, web-based platform built with React.js and Node.js that simplifies the assignment lifecycle for educational institutions. It enables lecturers (admins) to create and manage assignments, while students can securely submit their work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbayajames/james-manager-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mbayajames/james-manager-backend/issues"
+  },
+  "homepage": "https://github.com/mbayajames/james-manager-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1",
+    "path": "^0.12.7",
+    "serve-static": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
